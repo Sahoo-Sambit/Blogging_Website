@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Heading of Blogging Website -->
+  <div class="heading">
+    <h1 class="head-color">Blogging Website</h1>
+    <button id="create-post-btn">Create New Post</button>
+  </div>
+
+  <!-- Pop-Up Dialog Box on clicking Create New Post -->
+  <div id="post-popup" class="popup">
+    <div class="popup-content">
+      <form>
+        <!-- Heading of Pop-Up content -->
+        <div class="pop-head">
+          <h1>Create a Post</h1>
+          <span class="close-btn">&times;</span>
+        </div>
+        <!-- Body of Pop-Up content -->
+        <input type="text" id="title" name="title" placeholder="Enter Your heading....">
+        <textarea id="content" name="content" placeholder="Enter Your Blog Post...."></textarea>
+          <!-- Pop-Up buttons at footer -->
+          <div class="popup-buttons">
+            <button type="submit" id="publish-btn">Publish Post</button>
+            <button type="button" id="cancel-btn">Cancel Post</button>
+          </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Posts visible in this area -->
+  <div id="posts-container">
+    <!-- Posts will be dynamically added here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
