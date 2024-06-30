@@ -21,7 +21,7 @@ To get started with the blogging website, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/blogging-website.git
+   https://github.com/Sahoo-Sambit/Blogging_Website.git
    ```
 
 2. **Navigate to the Project Directory**
