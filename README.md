@@ -27,7 +27,7 @@ To get started with the blogging website, follow these steps:
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd blogging-website
+   cd Blogging_Website
    ```
 
 3. **Open `index.html` in Your Browser**
